@@ -16,7 +16,7 @@ class AllPharPluginLoader extends PharPluginLoader {
         $this->server = $server;
     }
 
-    public function getPluginDescription(string $file) {
+    public function getPluginDescription($file) {
         $phar = new \Phar($file);
         if (isset($phar["plugin.yml"])) {
             $pluginYml = $phar["plugin.yml"];
