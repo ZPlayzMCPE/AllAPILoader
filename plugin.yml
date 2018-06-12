@@ -1,6 +1,6 @@
 name: AllAPILoader
 main: TheNewHEROBRINE\AllAPILoader\Main
-version: 1.0.0
+version: 1.0.1
 api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11, 1.12.0]
 author: TheNewHEROBRINE
 description: Makes the server load every plugin regardless of the API version
