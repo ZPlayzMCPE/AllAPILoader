@@ -13,8 +13,6 @@ class Main extends PluginBase {
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerInterface(AllPharPluginLoader::class);
 
-        $this->getServer()->getPluginManager()->registerInterface(AllScriptPluginLoader::class);
-
         if ($this->getServer()->getPluginManager()->getPlugin("DevTools") instanceof Plugin or $this->getServer()->getPluginManager()->getPlugin("FolderPluginLoader") instanceof Plugin)
             $this->getServer()->getPluginManager()->registerInterface(AllFolderPluginLoader::class);
 
